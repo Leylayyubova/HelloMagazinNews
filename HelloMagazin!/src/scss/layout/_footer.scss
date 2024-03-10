@@ -1,0 +1,92 @@
+.footernavigation {
+    background-color: #000;
+    color: #fff;
+
+    .container {
+        padding: 2rem 0;
+
+        .navigation {
+            display: flex;
+            border-bottom: 1px solid #fff;
+
+            .footerdiv {
+                margin-bottom: 1rem;
+
+                .logo {
+                    display: flex;
+
+                    svg {
+                        height: 35px;
+                        width: 105px;
+                        color: #fff;
+
+                    }
+                }
+
+                .content {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 600px;
+
+                    ul {
+                        display: inline-block;
+                        white-space: nowrap;
+                        padding: 0;
+
+                        li {
+                            font-size: 0.75rem;
+                            letter-spacing: 1px;
+                            font-weight: 600;
+                            line-height: 2;
+                            text-transform: uppercase;
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+
+        .socialmenu {
+            display: flex;
+            padding: 1.25rem 0 0.25rem;
+
+            .icon {
+                display: flex;
+                justify-content: space-between;
+                white-space: nowrap;
+                width: 268px;
+            }
+
+            .uldiv {
+                .socialsubmenu {
+                    display: flex;
+                    margin: 0 0 0.25rem 3rem;
+
+                    li {
+                        white-space: nowrap;
+                        padding: 0 12px;
+                        border-right: 1px solid #fff;
+                        font-size: 0.75rem;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        line-height: 2;
+                        text-transform: uppercase;
+
+                        a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
